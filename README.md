@@ -33,6 +33,17 @@ pyinstaller main.py --onefile --noconsole --icon=icon.png
 
 <br>
 
+## Teal API の 操作方法
+API は https://teal-bbs.glitch.me/ を使用します。  
+
+- GET: https://teal-bbs.glitch.me/  
+全ての呟きを取得できます。
+- GET: https://teal-bbs.glitch.me/tweet/:id  
+ひとつの呟きを取得できます。
+- POST: https://teal-bbs.glitch.me/post?username=username&tweet=tweet  
+Teal に呟きを投稿できます。
+
+
 ## 📝 コピーライト
 (c) Copyright 2023 Umiirosoft Teal.
 
